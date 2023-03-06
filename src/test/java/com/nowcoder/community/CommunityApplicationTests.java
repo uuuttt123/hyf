@@ -8,6 +8,7 @@ import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.entity.LoginTicket;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.util.SensitiveFilter;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,6 +27,8 @@ class CommunityApplicationTests {
 
     @Autowired
     private LoginTicketMapper loginTicketMapper;
+    @Autowired
+    private SensitiveFilter sensitiveFilter;
 
     @Test
     void contextLoads() {
@@ -66,5 +69,11 @@ class CommunityApplicationTests {
         loginTicket.setExpired(new Date(System.currentTimeMillis() + 1000 * 60 * 10));
 
         loginTicketMapper.insertLoginTicket(loginTicket);
+    }
+
+    @Test
+    public void testSensitiveFilter() {
+        String text = "这里可以⭐赌⭐博⭐，可以⭐嫖⭐娼⭐，可以吸毒，可以开票，哈哈哈！";
+        System.out.println(sensitiveFilter.filter(text));
     }
 }

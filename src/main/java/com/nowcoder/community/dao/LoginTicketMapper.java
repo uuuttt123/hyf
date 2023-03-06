@@ -15,10 +15,12 @@ public interface LoginTicketMapper {
     int insertLoginTicket(LoginTicket loginTicket);
 
     @Update({
+            "<script>",
             "update login_ticket set status=#{status} where ticket=#{ticket} ",
             "<if test=\"ticket!=null\"> ",
             "and 1=1 ",
-            "</if>"
+            "</if>",
+            "</script>"
     })
     int updateStatus(String ticket, int status);
 

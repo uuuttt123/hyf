@@ -1,131 +1,296 @@
-2023-02-27 15:04:20,257 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 12308 (started by hyf in D:\7study\javasrc\community)
-2023-02-27 15:04:20,295 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 15:04:21,712 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 15:04:21,913 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 1.972 seconds (JVM running for 2.919)
-2023-02-27 15:04:21,915 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 15:04:21,917 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 15:04:22,084 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 15:04:22,214 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 15:07:37,527 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 9060 (started by hyf in D:\7study\javasrc\community)
-2023-02-27 15:07:37,529 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 15:07:38,773 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 15:07:38,958 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 1.675 seconds (JVM running for 2.493)
-2023-02-27 15:07:38,959 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 15:07:38,961 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 15:07:39,108 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 15:07:39,222 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:10:44,404 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 14944 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
-2023-02-27 18:10:44,406 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 18:10:44,442 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-27 18:10:44,443 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-27 18:10:45,266 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-02-27 18:10:45,273 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:10:45,273 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-02-27 18:10:45,274 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2023-02-27 18:10:45,347 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-02-27 18:10:45,347 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 903 ms
-2023-02-27 18:10:45,789 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 18:10:45,880 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2023-02-27 18:10:45,895 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:10:45,909 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-02-27 18:10:45,917 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.864 seconds (JVM running for 2.549)
-2023-02-27 18:10:45,918 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 18:10:45,919 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 18:10:53,787 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-27 18:10:53,787 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-02-27 18:10:53,787 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
-2023-02-27 18:11:54,252 INFO [http-nio-8080-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 18:11:54,468 INFO [http-nio-8080-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:17:01,500 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2023-02-27 18:17:08,675 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 15464 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
-2023-02-27 18:17:08,677 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 18:17:08,711 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-27 18:17:08,712 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-27 18:17:09,456 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-02-27 18:17:09,462 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:17:09,463 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-02-27 18:17:09,463 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2023-02-27 18:17:09,528 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-02-27 18:17:09,529 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 816 ms
-2023-02-27 18:17:09,963 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 18:17:10,043 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2023-02-27 18:17:10,055 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:17:10,068 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-02-27 18:17:10,077 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.772 seconds (JVM running for 2.639)
-2023-02-27 18:17:10,078 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 18:17:10,080 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 18:17:10,105 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-27 18:17:10,105 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-02-27 18:17:10,106 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
-2023-02-27 18:17:24,158 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 18:17:24,418 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:22:08,910 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2023-02-27 18:22:12,773 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 11284 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
-2023-02-27 18:22:12,776 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 18:22:12,815 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-27 18:22:12,816 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-27 18:22:13,781 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-02-27 18:22:13,788 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:22:13,788 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-02-27 18:22:13,789 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2023-02-27 18:22:13,893 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-02-27 18:22:13,893 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1076 ms
-2023-02-27 18:22:14,410 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 18:22:14,499 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2023-02-27 18:22:14,511 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:22:14,523 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-02-27 18:22:14,533 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.188 seconds (JVM running for 3.077)
-2023-02-27 18:22:14,533 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 18:22:14,535 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 18:22:15,958 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-27 18:22:15,959 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-02-27 18:22:15,960 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-02-27 18:22:16,051 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 18:22:16,231 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:41:00,708 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2023-02-27 18:41:06,964 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 27000 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
-2023-02-27 18:41:06,966 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 18:41:06,998 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-27 18:41:06,998 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-27 18:41:07,703 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-02-27 18:41:07,708 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:41:07,709 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-02-27 18:41:07,709 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2023-02-27 18:41:07,781 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-02-27 18:41:07,782 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 783 ms
-2023-02-27 18:41:08,215 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 18:41:08,292 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2023-02-27 18:41:08,306 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:41:08,318 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-02-27 18:41:08,326 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.692 seconds (JVM running for 2.51)
-2023-02-27 18:41:08,327 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 18:41:08,329 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 18:41:14,776 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-27 18:41:14,777 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-02-27 18:41:14,778 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-02-27 18:41:14,862 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 18:41:15,046 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:43:28,304 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2023-02-27 18:45:12,635 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 26080 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
-2023-02-27 18:45:12,637 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
-2023-02-27 18:45:12,678 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-27 18:45:12,678 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-27 18:45:13,763 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-02-27 18:45:13,771 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:45:13,772 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-02-27 18:45:13,773 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
-2023-02-27 18:45:13,878 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-02-27 18:45:13,879 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1200 ms
-2023-02-27 18:45:14,504 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2023-02-27 18:45:14,603 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2023-02-27 18:45:14,618 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-02-27 18:45:14,633 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-02-27 18:45:14,643 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.414 seconds (JVM running for 3.275)
-2023-02-27 18:45:14,644 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
-2023-02-27 18:45:14,646 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-2023-02-27 18:45:52,638 INFO [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-27 18:45:52,639 INFO [http-nio-8080-exec-6] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-02-27 18:45:52,640 INFO [http-nio-8080-exec-6] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
-2023-02-27 18:45:52,711 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-02-27 18:45:52,869 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-02-27 18:48:54,560 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-06 13:08:39,207 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 12052 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-06 13:08:39,209 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-06 13:08:39,242 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-06 13:08:39,242 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-06 13:08:40,028 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-06 13:08:40,036 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 13:08:40,036 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-06 13:08:40,036 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-06 13:08:40,103 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-06 13:08:40,104 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 862 ms
+2023-03-06 13:08:40,557 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-06 13:08:40,642 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-06 13:08:40,653 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06 13:08:40,665 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-06 13:08:40,674 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.822 seconds (JVM running for 2.632)
+2023-03-06 13:08:40,675 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-06 13:08:40,676 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-06 13:08:45,902 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06 13:08:45,902 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-06 13:08:45,902 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2023-03-06 13:08:45,950 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-06 13:08:46,060 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-06 13:09:21,722 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-06 13:57:03,464 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 19560 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-06 13:57:03,467 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-06 13:57:03,496 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-06 13:57:03,496 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-06 13:57:04,349 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-06 13:57:04,356 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 13:57:04,356 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-06 13:57:04,357 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-06 13:57:04,418 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-06 13:57:04,419 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 922 ms
+2023-03-06 13:57:04,908 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-06 13:57:05,032 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-06 13:57:05,043 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06 13:57:05,054 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-06 13:57:05,063 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.901 seconds (JVM running for 2.551)
+2023-03-06 13:57:05,064 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-06 13:57:05,065 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-06 13:57:22,899 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06 13:57:22,899 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-06 13:57:22,900 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2023-03-06 13:57:22,906 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:22,916 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-06 13:57:23,013 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-06 13:57:23,048 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,059 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostRows].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPosts].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,074 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,090 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,092 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,092 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:23,092 INFO [http-nio-8080-exec-1] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:23],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,814 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:31,818 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,820 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:57:31,820 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,826 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:31,842 INFO [http-nio-8080-exec-4] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:31],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:39,729 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:39,731 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,743 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.addComment].
+2023-03-06 13:57:39,762 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:39,765 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,766 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:57:39,769 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,770 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,771 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,771 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,773 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:39,773 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,773 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,773 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,773 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:39,777 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,777 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,777 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:39,777 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,780 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,780 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:39,780 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:39,783 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:39,783 INFO [http-nio-8080-exec-3] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:39],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,686 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:49,696 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,702 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,702 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:49,702 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:49,702 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:49,702 INFO [http-nio-8080-exec-8] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:49],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:51,811 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:51,811 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,816 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:57:51,817 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,819 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,819 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,821 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,821 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:51,823 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,823 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,823 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:51,823 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,826 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,826 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:51,828 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,828 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,830 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:51,830 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:51,830 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:51,830 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:51],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:58,893 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:57:58,894 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,894 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:57:58,894 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,899 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,900 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,900 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,900 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:58,905 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,905 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,905 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,905 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:58,909 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:57:58,911 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:57:58],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:02,787 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:02],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:02,787 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:02],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:02,787 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:02],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:02,793 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:02],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:02,797 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:02],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,819 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:09,819 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,822 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:09,824 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,824 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,826 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:09,827 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:09],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:19,128 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:19,135 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,137 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:19,137 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,138 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,138 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,140 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,140 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:19,141 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,141 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,142 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:19,143 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:19],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,099 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,105 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:22,110 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,111 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,111 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:22,112 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:22,112 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:22,114 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:22],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,404 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:24,416 INFO [http-nio-8080-exec-5] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:24],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:26,857 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:26,857 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostById].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:26,862 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:26,867 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:26,867 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:26,867 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:26,867 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentsByEntity].
+2023-03-06 13:58:26,869 INFO [http-nio-8080-exec-10] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:26],访问了[com.nowcoder.community.service.CommentService.findCommentCount].
+2023-03-06 13:58:33,223 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findLoginTicket].
+2023-03-06 13:58:33,223 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,223 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostRows].
+2023-03-06 13:58:33,226 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPosts].
+2023-03-06 13:58:33,227 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,227 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,227 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,227 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,230 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,230 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,230 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,230 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,232 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:58:33,232 INFO [http-nio-8080-exec-9] c.n.c.a.ServiceLogAscept [ServiceLogAscept.java:42] 用户[127.0.0.1],在[2023-03-06 13:58:33],访问了[com.nowcoder.community.service.UserService.findUserById].
+2023-03-06 13:59:23,808 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-06 15:09:20,376 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 2436 (started by hyf in D:\7study\javasrc\community)
+2023-03-06 15:09:20,399 INFO [main] c.n.c.RedisTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-06 15:09:20,860 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-06 15:09:20,862 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-06 15:09:20,881 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-06 15:09:22,444 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-06 15:09:22,781 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 2.659 seconds (JVM running for 3.74)
+2023-03-06 15:09:22,783 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-06 15:09:22,784 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-06 15:22:18,853 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:55] Starting RedisTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 17184 (started by hyf in D:\7study\javasrc\community)
+2023-03-06 15:22:18,864 INFO [main] c.n.c.RedisTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-06 15:22:19,403 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-06 15:22:19,406 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-06 15:22:19,431 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-03-06 15:22:21,153 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-06 15:22:21,463 INFO [main] c.n.c.RedisTests [StartupInfoLogger.java:61] Started RedisTests in 2.885 seconds (JVM running for 3.753)
+2023-03-06 15:22:21,466 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-06 15:22:21,467 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

@@ -1,0 +1,187 @@
+2023-03-02 17:25:23,959 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 20076 (started by hyf in D:\7study\javasrc\community)
+2023-03-02 17:25:23,970 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 17:25:25,560 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 17:25:25,763 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 2.105 seconds (JVM running for 3.279)
+2023-03-02 17:25:25,765 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 17:25:25,767 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 17:26:17,877 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 3344 (started by hyf in D:\7study\javasrc\community)
+2023-03-02 17:26:17,902 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 17:26:19,328 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 17:26:19,551 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 1.958 seconds (JVM running for 2.922)
+2023-03-02 17:26:19,552 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 17:26:19,553 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 17:30:43,935 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 15160 (started by hyf in D:\7study\javasrc\community)
+2023-03-02 17:30:43,938 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 17:30:45,399 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 17:30:45,605 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 1.973 seconds (JVM running for 2.827)
+2023-03-02 17:30:45,606 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 17:30:45,608 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 21:55:30,052 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 18864 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 21:55:30,054 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 21:55:30,087 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 21:55:30,088 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 21:55:30,874 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 21:55:30,882 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 21:55:30,882 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 21:55:30,883 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 21:55:30,956 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 21:55:30,957 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 868 ms
+2023-03-02 21:55:31,367 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 21:55:31,445 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 21:55:31,458 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 21:55:31,470 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 21:55:31,478 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.74 seconds (JVM running for 2.43)
+2023-03-02 21:55:31,479 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 21:55:31,480 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 21:55:49,674 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 21:55:49,674 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 21:55:49,676 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2023-03-02 21:55:49,709 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 21:55:49,838 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 21:58:49,963 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 21:58:53,466 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 3468 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 21:58:53,468 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 21:58:53,499 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 21:58:53,500 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 21:58:54,352 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 21:58:54,365 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 21:58:54,366 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 21:58:54,366 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 21:58:54,428 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 21:58:54,428 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 928 ms
+2023-03-02 21:58:54,824 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 21:58:54,901 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 21:58:54,914 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 21:58:54,926 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 21:58:54,935 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.801 seconds (JVM running for 2.532)
+2023-03-02 21:58:54,936 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 21:58:54,936 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 21:58:55,271 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 21:58:55,273 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 21:58:55,274 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2023-03-02 21:58:55,296 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 21:58:55,393 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 22:06:01,771 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 22:07:28,795 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 19004 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 22:07:28,798 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 22:07:28,845 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 22:07:28,845 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 22:07:30,004 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 22:07:30,012 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 22:07:30,013 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 22:07:30,013 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 22:07:30,124 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 22:07:30,125 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1278 ms
+2023-03-02 22:07:30,668 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 22:07:30,787 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 22:07:30,804 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 22:07:30,820 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 22:07:30,830 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.784 seconds (JVM running for 3.821)
+2023-03-02 22:07:30,831 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 22:07:30,833 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 22:07:31,147 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 22:07:31,148 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 22:07:31,149 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2023-03-02 22:07:31,174 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 22:07:31,297 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 22:34:31,593 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 23:19:46,195 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 12660 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 23:19:46,198 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 23:19:46,227 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 23:19:46,227 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 23:19:46,939 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 23:19:46,946 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:19:46,946 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 23:19:46,946 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 23:19:47,013 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 23:19:47,013 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 786 ms
+2023-03-02 23:19:47,427 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 23:19:47,503 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 23:19:47,515 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:19:47,528 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 23:19:47,536 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.656 seconds (JVM running for 2.289)
+2023-03-02 23:19:47,537 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 23:19:47,538 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 23:19:51,466 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 23:19:51,467 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 23:19:51,468 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2023-03-02 23:19:51,515 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 23:19:51,687 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 23:42:14,159 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:55] Starting CommunityApplicationTests using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 3028 (started by hyf in D:\7study\javasrc\community)
+2023-03-02 23:42:14,184 INFO [main] c.n.c.CommunityApplicationTests [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 23:42:15,605 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 23:42:15,807 INFO [main] c.n.c.CommunityApplicationTests [StartupInfoLogger.java:61] Started CommunityApplicationTests in 1.934 seconds (JVM running for 2.81)
+2023-03-02 23:42:15,809 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 23:42:15,810 INFO [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 23:42:16,006 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 23:42:16,145 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 23:45:14,262 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 23:45:23,168 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 8112 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 23:45:23,171 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 23:45:23,225 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 23:45:23,225 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 23:45:24,408 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 23:45:24,418 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:45:24,418 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 23:45:24,418 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 23:45:24,519 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 23:45:24,519 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1293 ms
+2023-03-02 23:45:25,327 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 23:45:25,482 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 23:45:25,504 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:45:25,517 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 23:45:25,544 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.954 seconds (JVM running for 4.624)
+2023-03-02 23:45:25,544 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 23:45:25,544 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 23:45:25,603 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 23:45:25,603 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 23:45:25,605 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2023-03-02 23:45:25,625 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 23:45:25,720 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 23:49:27,661 INFO [Thread-13] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 23:49:54,912 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 10212 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 23:49:54,916 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 23:49:54,953 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 23:49:54,953 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 23:49:55,683 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 23:49:55,689 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:49:55,690 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 23:49:55,690 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 23:49:55,775 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 23:49:55,775 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 821 ms
+2023-03-02 23:49:56,202 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 23:49:56,283 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 23:49:56,295 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:49:56,307 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 23:49:56,316 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.733 seconds (JVM running for 2.431)
+2023-03-02 23:49:56,316 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 23:49:56,317 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 23:50:07,920 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 23:50:07,921 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 23:50:07,923 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2023-03-02 23:50:07,962 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 23:50:08,124 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 23:50:54,933 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-03-02 23:57:55,042 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 1.8.0_341 on LAPTOP-FFMO9SKL with PID 9640 (D:\7study\javasrc\community\target\classes started by hyf in D:\7study\javasrc\community)
+2023-03-02 23:57:55,044 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:663] No active profile set, falling back to default profiles: default
+2023-03-02 23:57:55,086 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 23:57:55,087 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 23:57:56,109 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 23:57:56,118 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:57:56,118 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-03-02 23:57:56,118 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-03-02 23:57:56,229 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-03-02 23:57:56,229 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1142 ms
+2023-03-02 23:57:56,710 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-03-02 23:57:56,805 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2023-03-02 23:57:56,820 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-02 23:57:56,835 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-02 23:57:56,844 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.276 seconds (JVM running for 3.256)
+2023-03-02 23:57:56,845 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state LivenessState changed to CORRECT
+2023-03-02 23:57:56,847 INFO [restartedMain] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-03-02 23:58:02,478 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 23:58:02,479 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-03-02 23:58:02,481 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2023-03-02 23:58:02,570 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-03-02 23:58:02,827 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-03-02 23:58:38,728 INFO [SpringContextShutdownHook] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC

@@ -1,0 +1,2 @@
+2023-03-06 13:08:56,699 WARN [http-nio-8080-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:207] Resolved [java.lang.NumberFormatException: For input string: "abc"]
+2023-03-06 13:09:03,161 WARN [http-nio-8080-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:207] Resolved [java.lang.NumberFormatException: For input string: "abc"]
