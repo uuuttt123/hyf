@@ -1,8 +1,7 @@
 package com.nowcoder.community.controller;
 
-//import com.nowcoder.community.entity.Event;
+import com.nowcoder.community.entity.Event;
 import com.nowcoder.community.entity.User;
-//import com.nowcoder.community.event.EventProducer;
 import com.nowcoder.community.event.EventProducer;
 import com.nowcoder.community.service.LikeService;
 import com.nowcoder.community.util.CommunityConstant;
@@ -50,16 +49,16 @@ public class LikeController implements CommunityConstant {
         map.put("likeCount", likeCount);
         map.put("likeStatus", likeStatus);
         //触发点赞事件
-//        if (likeStatus == 1) {
-//            Event event = new Event()
-//                    .setTopic(TOPIC_LIKE)
-//                    .setUserId(HostHolder.getUser().getId())
-//                    .setEntityType(entityType)
-//                    .setEntityId(entityId)
-//                    .setEntityUserId(entityUserId)
-//                    .setData("postId", postId);
-//            eventProducer.fireEvent(event);
-//        }
+        if (likeStatus == 1) {
+            Event event = new Event()
+                    .setTopic(TOPIC_LIKE)
+                    .setUserId(HostHolder.getUser().getId())
+                    .setEntityType(entityType)
+                    .setEntityId(entityId)
+                    .setEntityUserId(entityUserId)
+                    .setData("postId", postId);
+            eventProducer.fireEvent(event);
+        }
 //        if (entityType == ENTITY_TYPE_POST) {
 //            //计算帖子分数
 //            String redisKey = RedisKeyUtil.getPostScoreKey();
