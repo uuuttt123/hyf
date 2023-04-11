@@ -12,10 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * @Author: Ctc
- * @Date: 2022/4/16 17:15
- */
 @ControllerAdvice(annotations = Controller.class)
 public class ExceptionAdvice {
     private static final Logger logger = LoggerFactory.getLogger(ExceptionAdvice.class);
