@@ -1,2 +1,0 @@
-2023-03-01 17:08:18,739 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s789ms91µs600ns).
-2023-03-01 17:16:59,955 WARN [http-nio-8080-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:207] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
