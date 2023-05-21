@@ -19,10 +19,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: Ctc
- * @Date: 2022/4/20 21:39
- */
 @Component
 public class EventConsumer implements CommunityConstant {
     private static Logger logger = LoggerFactory.getLogger(EventConsumer.class);

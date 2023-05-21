@@ -36,7 +36,7 @@ class CommunityApplicationTests {
 
     @Test
     void testSelectPosts(){
-        List<DiscussPost> discussPosts = discussPostMapper.selectDiscussPosts(149, 0, 10);
+        List<DiscussPost> discussPosts = discussPostMapper.selectDiscussPosts(149, 0, 10, 0);
 //        System.out.println(discussPosts);
         for(DiscussPost discussPost : discussPosts){
             System.out.println(discussPost);

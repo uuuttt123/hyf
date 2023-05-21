@@ -1,5 +1,7 @@
 package com.nowcoder.community.controller;
 
+import com.aliyun.oss.OSS;
+import com.aliyun.oss.model.PutObjectRequest;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.FollowService;
 import com.nowcoder.community.service.LikeService;
@@ -25,6 +27,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -46,6 +49,12 @@ public class UserController implements CommunityConstant {
     private LikeService likeService;
     @Autowired
     private FollowService followService;
+    @Autowired
+    private OSS ossClient;
+    @Value("${aliyun.bucketName}")
+    private String bucketName;
+    @Value("${aliyun.endpoint}")
+    private String endPoint;
 
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
     public String getSettingPage() {
@@ -67,18 +76,26 @@ public class UserController implements CommunityConstant {
         }
 
         fileName = CommunityUtil.generateUUID() + suffix;
-        File dest = new File(uploadPath + "/" + fileName);
+//        File dest = new File(uploadPath + "/" + fileName);
+        fileName = "header/" + fileName;
         try {
-            headerImage.transferTo(dest);
+//            headerImage.transferTo(dest);
+            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, fileName, headerImage.getInputStream());
+            Map<String, String> map = new HashMap<>();
+            map.put("x-oss-object-acl", "public-read");
+            putObjectRequest.setHeaders(map);
+            ossClient.putObject(putObjectRequest);
         } catch (IOException e) {
             logger.error("上传文件失败：" + e.getMessage());
             throw new RuntimeException("上传文件失败，服务器发生异常！", e);
+        } finally {
+            ossClient.shutdown();
         }
 
         User user = hostHolder.getUser();
-        String headerUrl = domain + contextPath + "/user/header/" + fileName;
+//        String headerUrl = domain + contextPath + "/user/header/" + fileName;
+        String headerUrl = "https://" + bucketName + "." + endPoint + "/" + fileName;
         userService.updateHeader(user.getId(), headerUrl);
-
         return "redirect:/index";
     }
 

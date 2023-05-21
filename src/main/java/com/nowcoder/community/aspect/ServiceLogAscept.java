@@ -19,8 +19,8 @@ import java.util.Date;
  * @Date: 2022/4/17 16:44
  */
 //AOP统一处理日志
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class ServiceLogAscept {
     private static final Logger logger = LoggerFactory.getLogger(ServiceLogAscept.class);
 
