@@ -2,10 +2,12 @@ package com.nowcoder.community;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
 
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
+@PropertySource("classpath:custom.properties")
 public class CommunityApplication {
     @PostConstruct
     public void init() {
